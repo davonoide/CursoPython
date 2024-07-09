@@ -5,7 +5,7 @@ import numpy as np
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Cargar la imagen de la máscara con transparencia
-mask = cv2.imread('spidy.png', cv2.IMREAD_UNCHANGED)
+mask = cv2.imread('filtro_sencillo/spidy.png', cv2.IMREAD_UNCHANGED)
 
 # Función para superponer una imagen sobre otra
 def overlay_image_alpha(img, img_overlay, x, y, alpha_mask):
@@ -29,7 +29,7 @@ def overlay_image_alpha(img, img_overlay, x, y, alpha_mask):
     img_crop[:] = (1.0 - alpha) * img_crop + alpha * img_overlay_crop
 
 # Ruta de la imagen a cargar
-image_path = '3spiderman2.png'  # Reemplaza con la ruta de tu imagen
+image_path = 'filtro_sencillo/3spiderman.png'  # Reemplaza con la ruta de tu imagen
 
 # Cargar la imagen
 image = cv2.imread(image_path)

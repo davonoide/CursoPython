@@ -1,6 +1,6 @@
 # Proyecto de Procesamiento de Imágenes y Video
 
-Este proyecto incluye dos scripts principales, `macara_vid.py` y `mascara_img.py`, diseñados para procesar imágenes y video utilizando técnicas de visión por computadora.
+Este proyecto incluye dos scripts principales, `mascara_vid.py` y `mascara_img.py`, diseñados para procesar imágenes y video utilizando técnicas de visión por computadora.
 
 ## Requisitos
 
