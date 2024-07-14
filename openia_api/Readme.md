@@ -24,16 +24,3 @@ pip install pandas
 5. Genera una api key para poder usar la api de OpenAI [VideoTutorial](https://www.youtube.com/watch?v=5OB9HmL28us).
 6. Asegurate de tener credito en [OpenAI/api](https://platform.openai.com/apps) en settings/billing.
 7. incertar la api key en los programas.
-
-## 1. `1simple.py`
-
-### Descripción
-
-Este script es un ejemplo simple que realiza un prompt sencillo para .
-
-### Uso
-
-Para ejecutar este script, abre una terminal y escribe el siguiente comando:
-
-```bash
-python 1simple.py
